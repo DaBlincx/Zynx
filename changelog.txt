@@ -1,0 +1,25 @@
+----------------------------------------------------------
+CHANGELOG
+----------------------------------------------------------
+
+-----
+1.3
+new name = Zynx
+changelog now
+-----
+
+-----
+1.2
+completely new startpage, minor bugfixes
+-----
+
+-----
+1.0.1
+added reddit to homescreen
+home button now returns to homescreen, not youtube
+-----
+
+-----
+1.0
+first version, added everything needed for a simple browser
+-----
