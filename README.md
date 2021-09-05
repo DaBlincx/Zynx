@@ -1,5 +1,5 @@
 # Zynx
 
-official installer download: https://www.mediafire.com/file/a85ht6ae4mbljtq/Zynx-Setup.1.3.exe/file
+official installer download: https://github.com/DaBlincx/Zynx/releases
 
 have fun
