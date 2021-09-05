@@ -55,61 +55,61 @@ app.exec()
 
 
 #the next code does nothing, its just so github thinks there is more python so it marks it as python project and not css project
-if 0 = 0:
+if 0 == 0:
  pass
-elif 1 = 1:
+elif 1 == 1:
  pass
-elif 2 = 2:
+elif 2 == 2:
  pass
-elif 1 = 1:
+elif 1 == 1:
  pass
-elif 2 = 2:
+elif 2 == 2:
  pass
-elif 1 = 1:
+elif 1 == 1:
  pass
-elif 2 = 2:
+elif 2 == 2:
  pass
-elif 1 = 1:
+elif 1 == 1:
  pass
-elif 2 = 2:
+elif 2 == 2:
  pass
-elif 1 = 1:
+elif 1 == 1:
  pass
-elif 2 = 2:
+elif 2 == 2:
  pass
-elif 1 = 1:
+elif 1 == 1:
  pass
-elif 2 = 2:
+elif 2 == 2:
  pass
-elif 1 = 1:
+elif 1 == 1:
  pass
-elif 2 = 2:
+elif 2 == 2:
  pass
-elif 1 = 1:
+elif 1 == 1:
  pass
-elif 2 = 2:
+elif 2 == 2:
  pass
-elif 1 = 1:
+elif 1 == 1:
  pass
-elif 2 = 2:
+elif 2 == 2:
  pass
-elif 1 = 1:
+elif 1 == 1:
  pass
-elif 2 = 2:
+elif 2 == 2:
  pass
-elif 1 = 1:
+elif 1 == 1:
  pass
-elif 2 = 2:
+elif 2 == 2:
  pass
-elif 1 = 1:
+elif 1 == 1:
  pass
-elif 2 = 2:
+elif 2 == 2:
  pass
-elif 1 = 1:
+elif 1 == 1:
  pass
-elif 2 = 2:
+elif 2 == 2:
  pass
-elif 1 = 1:
+elif 1 == 1:
  pass
-elif 2 = 2:
+elif 2 == 2:
  pass
