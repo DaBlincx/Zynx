@@ -1,7 +1,11 @@
+from PyQt5.QtCore import * 
+from PyQt5.QtWidgets import * 
+from PyQt5.QtGui import * 
+from PyQt5.QtWebEngineWidgets import * 
+from PyQt5.QtPrintSupport import * 
+import time
+import os
 import sys
-from PyQt5.QtCore import *
-from PyQt5.QtWidgets import *
-from PyQt5.QtWebEngineWidgets import *
  
 # to create binary >> pyinstaller --onefile -w Zynx.py
  
@@ -36,6 +40,7 @@ class MainWindow(QMainWindow):
         navbar.addWidget(self.url_bar)
  
         self.browser.urlChanged.connect(self.update_url)
+        self.browser.titleChanged.connect(self.update_title)
  
     def navigate_home(self):
         self.browser.setUrl(QUrl('file:///startpage/dist/index.html'))
@@ -46,6 +51,10 @@ class MainWindow(QMainWindow):
  
     def update_url(self, q):
         self.url_bar.setText(q.toString())
+    
+    def update_title(self):
+        w_title = str(self.browser.title())
+        self.setWindowTitle("% s - Zynx" % w_title)
  
  
 app = QApplication(sys.argv)
